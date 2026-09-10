@@ -1,0 +1,27 @@
+tr.header {
+    background-color: #5bbfdd;
+}
+
+table {
+    text-align: center;
+    margin: 0 auto;
+}
+
+th { 
+    color:blue ;
+    font-size: 25px;
+}
+
+td {
+    color:chartreuse;
+    font-size: 14px;
+
+}
+
+tr:hover{
+    background-color:darkorange;
+}
+
+tr:hover td{
+    color: black;
+}

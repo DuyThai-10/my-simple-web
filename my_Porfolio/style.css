@@ -1,0 +1,22 @@
+body {
+    /*text-align: center;*/
+    background-color:rgb(236, 238, 240);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    background-color:black;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color:white;
+    text-decoration:none;  /*xóa dấu - gạch chân*/
+    margin: 10px;    /*tạo khaonrg cách giữa các liên kết*/
+}
+
+a:hover {
+    color:blueviolet;
+}
+
