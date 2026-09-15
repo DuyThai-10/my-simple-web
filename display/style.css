@@ -1,0 +1,21 @@
+span {
+    color: red;
+}
+
+span.mau_nen {
+    color: rgb(242, 242, 248);
+    background-color: yellow;}
+    
+    
+    span.mau_nen:hover {
+        background-color: rgb(187, 27, 94);
+        
+        background-image: url("../product1.jpg");
+    }
+
+    .ab {
+        display: inline;
+    }
+
+
+
