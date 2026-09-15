@@ -1,0 +1,98 @@
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 200px;
+    background-color:rgb(245, 241, 241);
+}
+
+.menu li {
+    padding: 5px 10px; 
+    color:rgb(92, 90, 90);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+
+    display: flex;
+    justify-content: space-between;
+}
+.menu li:hover {
+    color: rgb(218, 29, 29);
+    background-color: rgb(126, 121, 121);   
+}
+
+body {
+    background-color: rgb(245, 241, 241);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    display: flex;
+    gap: 50px;
+}
+
+.video {
+    display: flex;
+    flex-wrap: wrap; /* Cho phép rớt dòng khi hết chỗ */
+    gap: 15px;      /* Khoảng cách giữa các ô */
+}
+
+.video-item {
+    width: 210px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+
+/* 1. Ép ảnh món ăn ở trên cùng phải lùn lại */
+.video-item img {
+    width: 100%;             /* Ảnh rộng bằng đúng ô chứa nó */
+    height: 130px;           /* Bắt buộc chiều cao chỉ 130px (sửa lỗi ảnh to) */
+}
+
+/* 2. Căn chỉnh chữ bên trong cái hộp */
+.noidung {
+    padding: 10px;
+}
+
+.noidung h3 {
+    font-size: 13px;
+    margin: 0 0 5px 0;
+    white-space: nowrap; /* k cho xún dòng*/
+    overflow: hidden;  /* chữ dài phần tràn ra dấu đi...*/
+    text-overflow: ellipsis;  /* Tên quán dài quá thì tự thêm dấu ... */
+}
+
+.diachi {
+    font-size: 11px;
+    color: #888888;
+    margin: 0 0 8px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;  /* Địa chỉ dài quá tự thêm dấu ... */
+}
+
+
+
+
+/* 3. QUAN TRỌNG NHẤT: Bắt con mèo/chim cánh cụt biến thành Avatar nhỏ */
+.binhluan {
+    display: flex;
+    align-items: center;     /* Cho avatar và tên nằm thẳng hàng ngang */
+    gap: 8px;
+}
+
+.binhluan img {
+    width: 30px  ; /* Ép chiều rộng đúng 30 pixel */
+    height: 30px ;  /* Ép chiều cao đúng 30 pixel */
+    border-radius: 50%;       /* Biến ảnh hình vuông thành HÌNH TRÒN XOE */
+      }  
+
+
+    
+
+
+
+
+
+
