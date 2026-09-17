@@ -1,0 +1,176 @@
+/* Header */
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(252, 252, 250);
+    height: 100px;
+    
+}
+
+.logo {
+    font-size:25px;
+}
+
+.gap1{
+    display: flex;
+}
+.gap1 input {
+    padding: 5px 10px;
+}
+.gap1 button {
+    padding: 5px 10px;
+}
+
+.search select{
+    padding: 5px 10px;
+}
+
+.search1{
+    display: flex;
+    align-items: center;
+}
+
+
+.departments select  {
+    font-size: 20px;
+    padding: 13px;
+    margin-left: 30px;
+}
+
+
+.navigation {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    background-color: black;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 100px;
+}
+
+.navbar ul li a {
+    color:aliceblue;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    color:blue;
+}
+
+/* body */
+
+.anh1 {
+    text-align: center;
+
+}
+.anh1 p {
+    font-size: 25px;
+}
+
+
+
+.products1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.products1 .anh1 img{
+    height: 350px;
+    width: 350px;
+    
+}
+
+.anh1{
+    border: 1px solid #200909;
+    margin-top: 20px;
+
+}
+
+/* Footer */
+
+.footer {
+    margin-top: 20px;
+}
+
+
+.footer .logo-footer {
+    display: flex;
+    justify-content: center;
+    background-color:grey;
+    gap: 100px;
+}
+
+.footer .logo-footer h3{
+    color: white;
+}
+
+.Contact {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    color: white;
+    padding: 10px;
+}
+
+.Fashi1 {
+    font-size: 35px;
+}
+
+.inform1 {
+    font-size: 35px;
+}
+
+.my-account1 {
+    font-size: 35px;
+    white-space: nowrap;
+}
+
+.join1 {
+    font-size: 35px;
+    white-space: nowrap;    
+}
+
+.Contact {
+    background-color: black;
+}
+
+.input1{
+    padding: 10px;
+    color: #9b9292;
+    border: none;
+}
+.submit1{
+    padding: 10px;
+    background-color: #e9d770;
+    border: none;
+}
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
